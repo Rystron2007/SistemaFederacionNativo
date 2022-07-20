@@ -1,0 +1,25 @@
+{
+  "name": "vendor_name/SistemaFederacion",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "oscar",
+      "email": "email@example.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "SistemaFederacion\\": "Controllers/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SistemaFederacion\\Tests\\": "Test/"
+    }
+  }
+}
